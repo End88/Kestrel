@@ -1,0 +1,26 @@
+Olá!
+Eu sou a Kestrel e vou ajudar no que puder.
+Consigo fazer novos arquivos levando um arquivo como base,
+vou levar o:
+
+teste.xlsx
+
+para criar arquivos novos!
+E para agilizar seu processo, levarei em conta os finais:
+0
+1
+Pode alterar se quiser! Deixe os dois do jeito que precisa.
+Vou começar minha contagem a partir do
+
+39421
+
+E nem precisa se preocupar, pode deixar que eu atualizo este número aqui!
+
+Ainda estou em fase de testes, o número das linhas para mim é suuuper importante.
+Por isso, alguns conselhos para trabalharmos bem juntos!
+1º Não altere o nome das minhas instruções, vai ficar difícil de eu achar :(
+2º Pode alterar o nome do arquivo que vou usar de referência, mas é bom deixar sempre o formato .xlsx
+3º O número das linhas são onde me encontro, então é legal deixar o nome do arquivo sempre na linha 6,
+    seus números finais nas linhas 10 e 11, e o número da minha contagem na linha 15!
+
+Assim vamos trabalhar tão bem juntos! S2
