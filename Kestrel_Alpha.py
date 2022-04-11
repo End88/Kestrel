@@ -41,8 +41,15 @@ if __name__ == '__main__':
 
     wb = openpyxl.load_workbook(h)
 
-    ws = wb['xxxxx']
+    ws = wb['xxxx']
     ws.title = str(number)
-    
+    img = openpyxl.drawing.image.Image('img\\logo1.png')
+    img.anchor = 'A1'
+    ws.add_image(img)
+
+    ws = wb['Plan1']
+    img = openpyxl.drawing.image.Image('img\\logo2.jpg')
+    img.anchor = 'A1'
+    ws.add_image(img)
     wb.save(str(number) + ' - ' + '.xlsx')
 
