@@ -45,11 +45,14 @@ if __name__ == '__main__':
     ws.title = str(number)
     img = openpyxl.drawing.image.Image('img\\logo1.png')
     img.anchor = 'A1'
+    ws['D10'] = number
     ws.add_image(img)
 
-    ws = wb['Plan1']
-    img = openpyxl.drawing.image.Image('img\\logo2.jpg')
+    ws = wb['DADOS DO PROCESSO']
+    img = openpyxl.drawing.image.Image('img\\logo2.png')
     img.anchor = 'A1'
     ws.add_image(img)
+    ws['B7'] = number
+    ws['A27'] = number
     wb.save(str(number) + ' - ' + '.xlsx')
 
